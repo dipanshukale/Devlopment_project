@@ -1,0 +1,280 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300;400&family=Dongle:wght@400;700&family=Jost&family=Montserrat:wght@300;400;500;600;700&family=Poppins&family=Roboto:wght@400;500&display=swap');
+
+
+*{
+    box-sizing : border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    line-height: 1.5;
+    
+}
+
+.first-div{
+    background-color: #344e41;
+}
+.showcase{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: start;
+    top: 50%;
+    padding: 0 20px;
+    color: #fff;
+}
+
+#about{
+    position: absolute;
+    left: 80%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 20px;
+    color: #ffffff;
+}
+#about .search .percent ul{
+    margin-bottom: 1rem;
+}
+#about .search .cities{
+    margin: 2rem;
+    padding: 1.5rem ;
+}
+#about .percent h4{
+   padding-bottom: 2rem;
+   color: #646464;
+}
+
+#about .search .percent li{
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+#about .search .cities li{
+    margin: 1rem;
+    padding: 0.5rem;
+    
+}
+#about .search .click{
+    background: none;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+#about .search .btn:hover{
+    outline: #5b5b5b;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+   padding: 0.2rem;
+    border: 1px solid rgb(255, 255, 255);
+}
+#about .search .btn{
+    padding: 0.2rem;
+    border: #ffffff;
+    color: #fff;
+    background: none;
+  
+}
+ .first-div .showcase .content{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+ }
+
+ #new{
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color:#caf0f8;
+    color: #000000;
+
+ }
+ .video-container h1{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+ }
+  .card{
+    background-image: url("The Valley.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+ }
+ .weather{
+    height: 30%;
+    width: 30%;
+    /* border: 0px solid black; */
+    /* border-radius: 0.8rem; */
+    /* box-shadow: 2px 2px 2px 2px  #081c15; */
+ }
+ .card h1{
+   display: inline;
+   position: absolute;
+   left: 55%;
+   padding-top: 3rem;
+   color: #000000;
+   justify-content: center;
+   align-items: center;
+ }
+ .card .weather{
+   position: absolute;
+   top: 40%;
+   display: flex;
+   color: black;
+   transition: 2s;
+   justify-content: center;
+   align-items: center;
+   left: 35%;
+  background-color: #caf0f8;
+ }
+
+ .card .weather:hover{
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: 2s;
+ }
+ .card .degree{
+    position: absolute;
+    bottom: 10%;
+    left: 49%;
+ }
+ .card .degree img{
+    position: absolute;
+    bottom: -5%;
+    right: 82%;
+ }
+ .city{
+    position: absolute;
+    top: 61%;
+ }
+.weather .date h4{
+    position: absolute;
+    top: 35%;
+    left: 34%;
+    
+ }
+ .weather h1{
+    position: absolute;
+    padding-bottom: 2rem;
+   top: -10%;
+ }
+ .weather span{
+    position: absolute;
+    top: 48%;
+ }
+ .card-2{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 2rem;
+    padding: auto;
+    background-color: #caf0f8;
+    transition: 2s;
+    color: #000000;
+    top: 40%;
+    right: 2%;
+    
+ }
+ .card-2:hover{
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: 2s;
+ }
+ .card-2 .degree h2{
+    position: absolute;
+    bottom: 10%;
+    left: 55%;
+ }
+ .card-2 span{
+    position: absolute;
+    top: 48%;
+ }
+ .card-2 .date h4{
+    position: absolute;
+    top: 35%;
+    left: 34%;
+ }
+ .card-2 .degree img{
+    position: absolute;
+    bottom: -12%;
+    right: 82%;
+    
+ }
+ .card-2 h1{
+    position: absolute;
+    padding-bottom: 2rem;
+   top: -10%;
+ }
+ .card .nav{
+    height: 100vh;
+    width: 30%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    color: #000000;
+ }
+ .nav input{
+    margin: 0.5rem;
+    padding: 0.1rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+ }
+ .nav .btn {
+    background: none;
+    border: none;
+    padding: 0.4rem;
+    /* height: 20%; */
+    border-radius: 0.5rem;
+ }
+ .nav .btn:hover{
+    border: 1px solid #fff;
+    /* padding: 0.5rem; */
+    cursor: pointer;
+ }
+   
+ .card .nav form{
+    display: flex;
+    position: absolute;
+    padding: 1rem;
+    left: 20%;
+    top: 10%;
+ }
+ .nav .cities{
+position: absolute;
+top: 20%;
+left: 10rem;
+ }
+ .nav .cities li{
+    margin: 1.8rem;
+ }
+ .nav .percent{
+    position: absolute;
+    top: 50%;
+    left: 10rem;
+   
+ }
+ .nav .percent li{
+ margin: 1.8rem;
+ }
+
+ 
